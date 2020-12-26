@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background:linear-gradient(-45deg, #f9f5f5, #d4d1d1, #b5b2b2); 
+  background-size: 400% 400%;
+  animation: bck 10s ease-in-out infinite;
+}
+@keyframes bck {
+  0%{
+      background-position: 0 50%;
+  }
+  50%{
+      background-position: 100% 50%;
+  }
+  100%{
+      background-position: 50% 0;
+  }
+}
+  body #head {
+    background-color: rgba(136, 135, 135, 0.3);
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    height:60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10; 
+     font-family: futura;
+      font-style: normal;}
+    body #head header {
+      margin-left: 50px;
+    }
+    body #head ul {
+      margin-left: 800px; }
+      body #head ul li {
+        list-style-type: none;
+        float: left;
+        margin: 5px; }
+        body #head ul li a{
+          text-decoration: none;
+          color: black;
+        }
+        body #head ul li a:hover{
+          color: blanchedalmond;
+        }
+        a:link{
+          color: blanchedalmond;
+        }
+        a:visited{
+          color: crimson;
+        }
+        a:active{
+          color: gray;
+        }
+        
+        /* parte de información*/
+  body .inf {
+    height: 720px;
+    transform: translateY(60px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    body .inf .izq {
+      margin-left: 100px;
+      text-transform: uppercase;
+      font-family: helvetica;
+      font-size: 90px;
+    }
+    body .inf .der{
+      margin-left: 80px;
+      margin-right: 30px;
+      font-family: helvetica;
+      font-style: italic;
+      font-size: 40px;
+      letter-spacing: 5px;
+      line-height: 80px;
+    }
+    body .inf #do_a {
+      width: 70%;
+      height: 70%;
+    font-family: Helvetica; }
+    #do_a .card img{
+        float: left;
+        height: 100%;
+        margin-left: 10%;
+    }
+    #do_b .card img{
+      float: left;
+      margin-left: 3%;
+      
+    }
+    body .inf #do_b{
+      width: 70%;
+      height: 70%;
+    font-family: Helvetica; 
+    transform: translateY(50px); 
+    }
+    body .inf #do_a .card{
+      width: 400px;
+      height: 200px;
+      margin-top: 30px;
+      margin-left: auto;
+      
+    }
+    body .inf #do_b .card{
+      width: 400px;
+      height: 200px;
+      margin-top: 30px;
+      margin-left: 20px;
+      
+      
+    }
+  body .inf #inv {
+    font-family: Helvetica;
+     font-size: 30px;
+  }
+  body .inf #mail {
+    font-family: Helvetica;
+    font-size: 30px;
+  }
+ 
+  body .foot {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(136, 135, 135, 0.1);
+    transform: translateY(60px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    font-family: helvetica;}
+    body .foot #logo{
+      display: flex;
+      justify-content: space-around;
+      width: 40%;
+      margin: 5px;
+    }
+    
+    body .foot #logo svg {
+     width: 30px;
+     height: 30px;
+     fill: rgba(136, 135, 135, 0.1);
+
+    }
+    body .foot #logo a :hover{
+      fill: salmon;
+      transform: translateZ(10px);
+     
+    }
+    
+   
+    body .foot #copy{
+       width: 40%;
+       margin-left: 100px;
+    }
